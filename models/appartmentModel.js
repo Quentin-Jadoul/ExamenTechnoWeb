@@ -1,6 +1,6 @@
 class Appartment{
-    constructor(){
-        this.rooms = [];
+    constructor(rooms){
+        this.rooms = rooms;
     }
 }
 module.exports = Appartment;
