@@ -1,0 +1,30 @@
+body {
+    width: 500px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    font-style: Arial;
+    font-size: 12px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+#formbutton{
+    background-color: steelblue;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+tr{
+    background-color: lightgrey;
+}
+td{
+    padding: 5px;
+    margin: 5px;
+}
+table{
+    width: 100%;
+}
+#total{
+    background-color: lightblue;
+}

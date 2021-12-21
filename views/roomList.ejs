@@ -1,14 +1,20 @@
+<link href="css/stylesheet.css" rel="stylesheet">
+<body>
 <title>Appartement</title>
 <h1>Liste des pièces de l'appartement</h1>
 <table>
     <tbody>
         <% for (let i = 0 ; i < appartment.length ; i++) { %>
             <tr>
-                <td>Pièce: <%= appartment[i].name %></td>
+                <td>Pièce : <%= appartment[i].name %></td>
             </tr>
         <% } %> 
+            <tr>
+                <td id="total">Surface totale :</td>
+            </tr>
     </tbody>
 </table>
 <form>
-    <input type="submit" id="formButton" value="Encoder une autre pièce" formaction="/addRoom"/>
+    <input type="submit" id="formbutton" value="Encoder une autre pièce" formaction="/addRoom"/>
 </form>
+</body>
