@@ -1,1 +1,23 @@
 <h1>Encoder les données de la pièce</h1>
+<form action = '/saveRoom' method="post">
+    <table>
+        <tbody>
+            <tr>
+                <td>Pièce:</td>
+                <td><input type="text" name="name" value="" /></td>
+            </tr>
+            <tr>
+                <td>Largeur:</td>
+                <td><input type="number" name="width" value="" /></td>
+            </tr>
+            <tr>
+                <td>Longueur:</td>
+                <td><input type="number" name="length" value="" /></td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="submit" name="save" value="Enregistrer" /></br>
+</form>
+<form>
+    <input type="submit" name="calculate" value="Calculer la surface" />
+</form>

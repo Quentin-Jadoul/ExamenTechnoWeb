@@ -8,5 +8,6 @@ let roomController = require('./controllers/roomController');
 router.get('/', (req,res) => res.redirect('/appartment'));
 router.get('/appartment', appartmentController.roomList);
 router.get('/addRoom', roomController.add);
+router.post('/saveRoom', roomController.save);
 
 module.exports = router;
